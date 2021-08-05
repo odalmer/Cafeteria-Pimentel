@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #ffba08;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+}
+
+.content {
+  overflow: none;
+}
+
+.logo {
+  width: 200px;
+  margin: auto;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px;
+  position: sticky;
+  margin-bottom: 50px;
+}
+
+.search {
+  width: 50%;
+  padding: 10px 10px 10px;
+  position: fixed;
+  z-index: 1;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(2, 20%);
+  justify-content: center;
+  /* align-content: center; */
+  grid-gap: 10px;
+  /* border: gray solid; */
+  height: 100vh;
+  margin-top: 10%;
+}
+
+.item {
+  /* border: solid rebeccapurple; */
+  text-align: center;
+}
+.item img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  /* object-fit: cover; */
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+footer {
+  background-color: #ffba08;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+*/ ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0) !important;
+}
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+footer i {
+  font-size: 20px;
+  color: rgb(5, 0, 77);
+}
+
+footer li {
+  font-size: 12px;
+}
+
+.section-title {
+  text-align: center;
+  left: 50%;
+  margin-top: 10%;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
