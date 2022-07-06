@@ -1,0 +1,61 @@
+
+.title-sec-prd {
+  text-align: center;
+  font-size: 30;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.prd-info a{
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.prd-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.prd-price {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  line-height: 3.5rem;
+  font-size: 1.2rem;
+}
+.spaceBetweenLastprdAndFooter {
+  height: 5rem;
+}
+.prd-info {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.amount{
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+}
+
+.amount *{
+  margin-right: 15px;
+  display: inline;
+  
+}
+
+.amtBtn{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.amtIcon{
+  margin: 1%;
+}

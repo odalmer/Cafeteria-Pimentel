@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  justify-content: center;
+  grid-gap: 10px;
+  margin-top: 3%;
+}
+.item {
+  text-align: center;
+}
+.item img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+}

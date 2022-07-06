@@ -1,0 +1,27 @@
+.wrapper{
+    margin-top: 1rem;
+    width: 80%;
+    margin:auto;
+}
+.amount-form{
+    float: left;
+}
+
+.amount-selector{
+    width: 40px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.prd-info p{
+    font-size: 18px;
+}
+
+.prd-info{
+    margin-top: 1rem;
+}
+
+.prd-price{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
